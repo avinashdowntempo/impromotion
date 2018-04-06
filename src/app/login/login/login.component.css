@@ -15,10 +15,24 @@
   .footer {
     position: fixed;
     left: 0;
-    bottom: 0;
+    top: 0;
     width: 100%;
     text-align: center;
 }
+.title{
+    padding: 30px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: #ec616e;
+}
 form{
     margin: 20px;
+}
+.active{
+    background-color: #ec616e; 
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+    background-color: #ec616e; 
 }
